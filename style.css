@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px; 
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white ;
+    cursor: pointer;
+}
+.address-1{
+    color: #ccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.icon p{
+    color: #fff;
+    font-size: 1rem;
+   
+}
+.icon{
+    display: flex;
+    align-items: center;
+
+}
+.icon p{
+    margin-left: 3px;
+}
+.search-bar{
+    display: flex; 
+    background-color:pink ;
+    width: 620px;
+    height: 40px;
+    border-radius:4px ;
+    justify-content: space-evenly;
+
+}
+.search-bar:hover{
+   border: 2px  solid #febd68; 
+}
+.search-select{
+    background-color: #F3F3F3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px ;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+    border: none;
+    font-size: 1rem;
+
+}
+.search-icon:hover{
+    background-color: #ff8624;
+    cursor: pointer;
+}
+span{
+    font-size: 0.7rem;
+}
+.na1{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 30px;
+
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+}   
+.panel-ops p{
+    display: inline;
+    margin-left: 11px;
+    
+}
+.panel-ops{
+    width: 777px;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+.main-section{
+    background-image: url("display.jpg");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.main-message{
+    background-color: #fff;
+    color: black;
+    height:40px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    bottom: 25px;
+    position: relative;
+    width: 80%;
+    margin-bottom: 175px;
+}
+.main-message a{
+    color: #007185;
+}
+
+
+
+
